@@ -1,2 +1,7 @@
-node_modules
+# Ignore node_modules
+node_modules/
+
+# Other common files to ignore
+dist/
 .env
+.DS_Store
