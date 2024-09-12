@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: ;
+  width: 100dvw;
+  overflow-x: hidden;
+  height: 100%;
+  background: #f8f8f8;
+  border-color: #3b3b3b;
+  user-select: none;
+}
+@layer utilities {
+  .form-input {
+    @apply w-full rounded-3xl py-2 px-8 border border-gray-200 focus:border-red-500 outline-none;
+  }
+  .form-label {
+    @apply w-full text-left font-semibold text-xl my-2;
+  }
+}
